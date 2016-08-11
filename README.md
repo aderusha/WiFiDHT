@@ -11,6 +11,8 @@ Configure the WiFi and IP address details found in the sketch and flash to your 
 
 `curl http://192.168.0.101/humid` returns `56`
 
+`curl http://192.168.0.101/html` returns a web page with the current sensor readings in HTML format
+
 ### Requirements
 - A Windows, OSX, or Linux computer with an available USB port
 - A micro-USB cable
