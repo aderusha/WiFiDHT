@@ -3,15 +3,15 @@ Arduino sketch for the ESP8266 and a DHT22 sensor to allow collection of temp/hu
 
 Configure the WiFi and IP address details found in the sketch and flash to your device.  Once the device is attached to your network, temperature and humidity readings can be accessed via HTTP per the following examples:
 
-`curl http://192.168.0.101` returns `78.9,56`
+`curl http://192.168.0.200` returns `78.9,56`
 
-`curl http://192.168.0.101/json` returns `{"temperature":"78.9", "humidity":"56"}`
+`curl http://192.168.0.200/json` returns `{"temperature":"78.9", "humidity":"56"}`
 
-`curl http://192.168.0.101/temp` returns `78.9`
+`curl http://192.168.0.200/temp` returns `78.9`
 
-`curl http://192.168.0.101/humid` returns `56`
+`curl http://192.168.0.200/humid` returns `56`
 
-`curl http://192.168.0.101/html` returns a web page with the current sensor readings in HTML format
+`curl http://192.168.0.200/html` returns a web page with the current sensor readings in HTML format
 
 ### Requirements
 - A Windows, OSX, or Linux computer with an available USB port
